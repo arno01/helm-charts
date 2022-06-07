@@ -2,61 +2,83 @@ apiVersion: v1
 entries:
   akash-e2e:
   - apiVersion: v2
-    appVersion: 0.16.0
-    created: "2022-05-14T21:23:48.076413094Z"
+    appVersion: 0.16.4
+    created: "2022-06-07T08:20:06.058465247Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: 11.1.3
     description: A Helm chart for running the Akash end to end tests
-    digest: 066be813632309eeba0f282cc8f337d8babdc29c80ab8ff985a857ac1e8a428a
+    digest: 6ab5fa1ac336cc4d9aa572e668c8d508c33ea80d5199cfe6b7a63fab1fdfe323
     name: akash-e2e
     type: application
     urls:
-    - https://github.com/arno01/helm-charts/releases/download/akash-e2e-0.11.0/akash-e2e-0.11.0.tgz
-    version: 0.11.0
+    - https://github.com/arno01/helm-charts/releases/download/akash-e2e-0.13.0/akash-e2e-0.13.0.tgz
+    version: 0.13.0
   akash-ingress:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-05-14T21:23:48.251320375Z"
+    appVersion: 1.0.0
+    created: "2022-06-07T08:20:06.204355521Z"
     description: A Helm chart for Kubernetes
-    digest: 0324e1940e8386dca0e6e225d015df7d3cb8eb2436f7e1bb33a1ac185bea428a
+    digest: 45651a57bcde85e6f68bcb97d03ce1e0d7d2d353c81694ac7c0baf5954cd7997
     name: akash-ingress
     type: application
     urls:
-    - https://github.com/arno01/helm-charts/releases/download/akash-ingress-0.18.0/akash-ingress-0.18.0.tgz
-    version: 0.18.0
+    - https://github.com/arno01/helm-charts/releases/download/akash-ingress-0.20.0/akash-ingress-0.20.0.tgz
+    version: 0.20.0
+  akash-node:
+  - apiVersion: v2
+    appVersion: 0.16.4
+    created: "2022-06-07T08:20:06.335804194Z"
+    description: A Helm chart for Kubernetes
+    digest: c90a3a148de1f6b4b14bd7870113fb9173a7bc7f09c00dcc6fd2831834467dce
+    name: akash-node
+    type: application
+    urls:
+    - https://github.com/arno01/helm-charts/releases/download/akash-node-0.127.0/akash-node-0.127.0.tgz
+    version: 0.127.0
   akash-rook:
   - apiVersion: v2
-    appVersion: 1.8.0
-    created: "2022-05-14T21:23:48.449961631Z"
+    appVersion: 1.7.6
+    created: "2022-06-07T08:20:06.504415721Z"
     description: A Helm chart for Kubernetes
-    digest: 4c8830e269f390f90528fc802aeeadb4206078f35a8487a8cb86a48288b5384f
+    digest: cd68ca3e6b4cbc31ca741373435a5b3ba560165ae304e442824135456092ce2a
     name: akash-rook
     type: application
     urls:
-    - https://github.com/arno01/helm-charts/releases/download/akash-rook-0.20.0/akash-rook-0.20.0.tgz
-    version: 0.20.0
+    - https://github.com/arno01/helm-charts/releases/download/akash-rook-0.22.0/akash-rook-0.22.0.tgz
+    version: 0.22.0
   hostname-operator:
   - apiVersion: v2
-    appVersion: 0.14.0
-    created: "2022-05-14T21:23:48.636734699Z"
+    appVersion: 0.16.4
+    created: "2022-06-07T08:20:06.658050408Z"
     description: A Helm chart for Kubernetes
-    digest: cc00d69eeb48c2eed60067741c412eee6fdef7cd9a40c93e3a8f715ac57d2402
+    digest: e15b488403881a0b466b60ce67e61af979a0d5d22a137902da9c29d78970dbfc
     name: hostname-operator
     type: application
     urls:
-    - https://github.com/arno01/helm-charts/releases/download/hostname-operator-0.15.0/hostname-operator-0.15.0.tgz
-    version: 0.15.0
+    - https://github.com/arno01/helm-charts/releases/download/hostname-operator-0.17.0/hostname-operator-0.17.0.tgz
+    version: 0.17.0
+  inventory-operator:
+  - apiVersion: v2
+    appVersion: 0.16.4
+    created: "2022-06-07T08:20:06.807573526Z"
+    description: A Helm chart for the Akash Inventory Operator
+    digest: ad753a285b25d21f4750e0c67cde2768a676ab005aa7e493eb70862ef565a840
+    name: inventory-operator
+    type: application
+    urls:
+    - https://github.com/arno01/helm-charts/releases/download/inventory-operator-0.10.0/inventory-operator-0.10.0.tgz
+    version: 0.10.0
   provider:
   - apiVersion: v2
-    appVersion: 0.14.0
-    created: "2022-05-14T21:23:48.845964989Z"
+    appVersion: 0.16.4
+    created: "2022-06-07T08:20:06.955542055Z"
     description: A Helm chart for Kubernetes
-    digest: c784d89a6c6bb80c6c49420e61a024e89c06318c16f399b1523a19366d4a2d07
+    digest: 989a7392cec6c2c9d4dc9eafe719fef5f3b9dd6f2c7e7f8e8f83e8724e37a4e9
     name: provider
     type: application
     urls:
-    - https://github.com/arno01/helm-charts/releases/download/provider-0.156.0/provider-0.156.0.tgz
-    version: 0.156.0
-generated: "2022-05-14T21:23:47.807931135Z"
+    - https://github.com/arno01/helm-charts/releases/download/provider-0.164.0/provider-0.164.0.tgz
+    version: 0.164.0
+generated: "2022-06-07T08:20:05.795237558Z"
